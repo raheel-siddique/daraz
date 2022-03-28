@@ -1,0 +1,123 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+/* nav {
+  position: fixed;
+} */
+.mainnavbardiv {
+  background-color: rgb(233, 228, 228);
+  height: 22px;
+  /* position: fixed; */
+  /* z-index: 100; */
+  width: 100%;
+  z-index: 100;
+  /* z-index: 1; */
+
+  /* position: absolute; */
+}
+body {
+  background-color: #eff0f5;
+}
+.listofnavabr {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-family: Roboto-Regular, "Helvetica Neue", Helvetica, Tahoma, Arial,
+    Sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+}
+li {
+  color: black;
+}
+.firstetxt {
+  color: #f85606;
+}
+a {
+  text-decoration: none;
+}
+.listofnavabr :hover {
+  color: #f85606;
+  text-decoration: underline;
+}
+.mainnavbardiv2 {
+  background-color: #f9f9f9;
+  height: 72px;
+  position: fixed;
+  width: 100%;
+
+  z-index: 1;
+}
+.img2ndnavbar {
+  width: 260px;
+  height: 60px;
+}
+.searchfld {
+  margin: 10px;
+  width: 530px;
+  height: 44px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid lightgray;
+  text-indent: 10px;
+}
+.listofnavabr1 {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-family: Roboto-Regular, "Helvetica Neue", Helvetica, Tahoma, Arial,
+    Sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+}
+.serchbtn {
+  width: 56px;
+  height: 44px;
+  position: relative;
+  right: 14px;
+  background-color: #f85606;
+  border: none;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+.maindiv {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin-left: 65px;
+  margin-bottom: 50px;
+}
+.headprodycts {
+  text-align: center;
+  font-family: Roboto-Regular, "Helvetica Neue", Helvetica, Tahoma, Arial,
+    Sans-serif;
+}
+.productdiv {
+  background-color: #f9f9f9;
+  width: 190px;
+  height: 350px;
+}
+.productimg1 {
+  width: 100%;
+}
+.productpara1 {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-family: Roboto-Regular, "Helvetica Neue", Helvetica, Tahoma, Arial,
+    Sans-serif;
+}
+.headproduct1 {
+  padding-left: 15px;
+  color: #f85606;
+}
+.headproduct2 {
+  padding-left: 15px;
+  color: black;
+}
+.deltag {
+  color: gray;
+}
